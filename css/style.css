@@ -1,0 +1,45 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 40px;
+    background: #2a2727;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.shapes {
+    width: 50vw;
+    padding-right: 50px;
+    position: fixed;
+    bottom: 100px;
+    left: 50vw;
+}
+
+.inner {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.rectangle {
+    background: white;
+    min-height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: -150px;
+}
